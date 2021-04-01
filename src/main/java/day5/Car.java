@@ -3,8 +3,9 @@ package day5;
 public class Car {
 
     private String model;
-    private    int yearOfRelease;
+    private int yearOfRelease;
     private String color;
+
     public String getColor() {
         return color;
     }
@@ -21,9 +22,6 @@ public class Car {
         this.yearOfRelease = yearOfRelease;
     }
 
-
-
-
     public String getModel() {
         return model;
     }
@@ -31,9 +29,5 @@ public class Car {
     public void setModel(String model) {
         this.model = model;
     }
-
-
-
-
-
+    
 }
